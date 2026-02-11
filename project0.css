@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e0f4ff;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 10px;
+}
+
+h1 {
+    color: #1a5f7a;
+    font-size: 2rem;
+    margin: 20px 0;
+    text-align: center;
+}
+
+h2 {
+    color: #2c7fa0;
+    font-size: 1.75rem;
+    margin: 20px 0 15px;
+    border-bottom: 3px solid #2c7fa0;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #3a8fb5;
+    font-size: 1.3rem;
+    margin: 15px 0 10px;
+}
+
+div {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    color: #555;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+li {
+    margin: 8px 0;
+    color: #444;
+}
+
+a {
+    color: #2c7fa0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #1a5f7a;
+    text-decoration: underline;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* Tablet screens (768px and up) */
+@media (min-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        margin: 30px 0;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    div {
+        padding: 30px;
+        margin: 20px auto;
+        max-width: 900px;
+    }
+
+    video {
+        max-width: 565px;
+        height: auto;
+    }
+
+    img {
+        max-width: 555px;
+    }
+}
+
+/* Desktop screens (1024px and up) */
+@media (min-width: 1024px) {
+    body {
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    div {
+        padding: 40px;
+        max-width: 1000px;
+    }
+}
+

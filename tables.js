@@ -1,0 +1,1 @@
+alert("Tables are working correctly!");

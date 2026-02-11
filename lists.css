@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgb(232, 241, 238);
+}
+ul {
+    border: 2px solid black;
+    list-style-type: square;
+    color:rgb(51, 50, 50);
+}
+ol {
+    border: 1px solid black;
+    list-style-type: number;
+    color:rgb(72, 20, 20);
+}
+dl {
+    border: 1px solid black;
+    color:rgb(74, 71, 64);
+}

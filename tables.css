@@ -1,0 +1,21 @@
+caption{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+td{
+    border: 1px solid black;
+    background-color: wheat;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+}
+th{
+    border: 1px solid black;
+    background-color: lightgray;
+}
